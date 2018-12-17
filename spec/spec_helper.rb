@@ -22,11 +22,11 @@ RSpec.configure do |config|
   config.before do
     DatabaseCleaner.clean
   end
-
+ 
   config.after do
     DatabaseCleaner.clean
   end
-
+ 
   config.order = 'default'
 
   # Capybara.current_driver = :selenium
